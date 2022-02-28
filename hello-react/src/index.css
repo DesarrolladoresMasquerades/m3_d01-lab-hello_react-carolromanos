@@ -1,0 +1,81 @@
+body {
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.section{
+  background-color: #1D1D27;
+
+}
+
+.top{
+ display: flex;
+ justify-content: space-between;
+}
+
+.menu-icon{
+  width: 40px;
+  height: 30px;
+  margin-right: 70px;
+  margin-top: 30px;
+}
+.app-logo{
+  width: 65px;
+  height: 70px;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+h1{
+  color: white;
+  font-size: 4em;
+  text-align: left;
+}
+p{
+  color: white;
+  text-align: left;
+  font-size: 1.5em;
+
+}
+.texts{
+  width: 50%;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 5%;
+}
+a{
+  background-color: white;
+  font-size: 1.2em;
+  color: #1D1D27;
+  border: 2px solid white;
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 15px;
+  margin-bottom: 10%;
+}
+
+.icon-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 5% 5%;
+}
+.icon-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+}
+.icon-box p{
+  color: #1D1D27;
+  font-size: 1em;
+  width: 70%;
+}
+.icon-box img{
+  width: 50%;
+}
